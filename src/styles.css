@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --main-red:#c42126;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background: #222;
+}
+h1,h2,h3,h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+p,button,a,input,span{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.top30{
+    margin-top: 30px;
+}
+
+.top60{
+    margin-top: 60px;
+}
+
+.title{
+    color: var(--main-red);
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.center{
+    text-align: center;
+}
+
+.shadow{
+    box-shadow: 1px 1px 1px 1px #757575;
+}

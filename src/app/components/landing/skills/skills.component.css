@@ -1,0 +1,38 @@
+.container {
+    width: 100%; /* Full width */
+    background-color: #808080; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    color: white; /* White text color */
+}
+
+.php {width: 60%; background-color: var(--main-red);} /* Dark Grey */
+
+.skill-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px; 
+}
+
+.skill-item{
+    width: 45%;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.second-title{
+    background-color: var(--main-red);
+    color: white;
+    position: relative;
+    top: -45px;
+    width: 80%;
+    height: 55px;
+    left: 10%;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+}
